@@ -6,7 +6,15 @@
 <input class='search-key' type="text"/>
 <ul class='employee-list'></ul>
 </div>
-<button type="button">Click Me!</button>
+<script type="text/javascript">
+function getPhoto() {
+  // Retrieve image file location from specified source
+  navigator.camera.getPicture(onPhotoURISuccess, onFail, { quality: 50,
+    destinationType: destinationType.FILE_URI,
+    sourceType: "Camera.PictureSourceType.PHOTOLIBRARY" });
+}
+</script>
+<button type="button" onclick="getPhoto()">Click Me!</button>
 <script src="lib/jquery-1.8.2.min.js"></script>
 <script src="js/storage/memory-store.js"></script>
 <script src="js/main.js"></script>
