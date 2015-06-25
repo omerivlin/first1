@@ -11,7 +11,7 @@ function getPhoto() {
   // Retrieve image file location from specified source
   navigator.camera.getPicture(onPhotoURISuccess, onFail, { quality: 50,
     destinationType: destinationType.FILE_URI,
-    sourceType: "Camera.PictureSourceType.PHOTOLIBRARY" });
+    sourceType: Camera.PictureSourceType.PHOTOLIBRARY });
 }
 </script>
 <button type="button" onclick="getPhoto()">Click Me!</button>
