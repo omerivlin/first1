@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.yaron.books"
+        id          = "com.omerivlin.app"
         versionCode = "11" 
         version     = "1.0.0" >
 
-    <name>הספריה</name>
+    <name>First</name>
 
     <description>
-		הספריה
+		omerivlin
     </description>
 
     <author href="" email="">
-       הספריה
+       omerivlin
     </author>
 	
     <icon src="icon.png" />
