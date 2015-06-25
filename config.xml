@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.yaron.books"
+        versionCode = "11" 
+        version     = "1.0.0" >
+
+    <name>הספריה</name>
+
+    <description>
+		הספריה
+    </description>
+
+    <author href="" email="">
+       הספריה
+    </author>
+	
+    <icon src="icon.png" />
+
+	<preference name="fullscreen" value="true" />
+	<preference name="orientation" value="landscape" />
+	
+	<gap:platform name="ios" />
+	<gap:platform name="android" />
+	
+	<!-- iPhone -->
+	<preference name="UIWebViewBounce" value="false" />	
+	<preference name="DisallowOverscroll" value="true" />
+
+	<!-- Plugins -->
+	<gap:plugin name="org.apache.cordova.media" />
+	
+	<!--
+	<feature name="http://api.phonegap.com/1.0/device" />
+	<feature name="http://api.phonegap.com/1.0/camera"/>
+	<feature name="http://api.phonegap.com/1.0/file"/>
+	<feature name="http://api.phonegap.com/1.0/media"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>-->
+	
+</widget>
